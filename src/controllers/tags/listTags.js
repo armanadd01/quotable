@@ -1,5 +1,5 @@
-import Tags from '../../models/Tags.js'
-import getSortParams from '../utils/getSortParams.js'
+import Tags from '../../models/Tags'
+import getSortParams from '../utils/getSortParams'
 
 export default async function listTags(req, res, next) {
   try {

@@ -1,4 +1,6 @@
-import { deburr, words, toLower } from 'lodash-es'
+import deburr from 'lodash/deburr'
+import words from 'lodash/words'
+import toLower from 'lodash/toLower'
 
 /**
  * Converts the given `string` to a slug.

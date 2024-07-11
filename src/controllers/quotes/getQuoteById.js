@@ -1,5 +1,5 @@
 import createError from 'http-errors'
-import Quotes from '../../models/Quotes.js'
+import Quotes from '../../models/Quotes'
 
 /**
  * Get a single quote by its ID

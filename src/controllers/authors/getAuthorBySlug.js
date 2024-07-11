@@ -1,6 +1,6 @@
 import createError from 'http-errors'
-import Authors from '../../models/Authors.js'
-import Quotes from '../../models/Quotes.js'
+import Authors from '../../models/Authors'
+import Quotes from '../../models/Quotes'
 
 /**
  * Get a single author by slug
