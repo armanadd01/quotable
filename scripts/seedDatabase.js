@@ -10,7 +10,7 @@ import Table from 'cli-table3'
 import fs from 'fs'
 import path from 'path'
 import Spinner from './utils/Spinner.js'
-import models from '../src/models'
+import models from '../src/models/index.js'
 
 // -------------------------------------------------------------------------
 

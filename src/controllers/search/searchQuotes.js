@@ -1,8 +1,8 @@
-import lowerCase from 'lodash/lowerCase'
-import clamp from 'lodash/clamp'
+import lowerCase from 'lodash/lowerCase.js'
+import clamp from 'lodash/clamp.js'
 import createError from 'http-errors'
-import Quote from '../../models/Quotes'
-import getPaginationParams from '../utils/getPaginationParams'
+import Quote from '../../models/Quotes.js'
+import getPaginationParams from '../utils/getPaginationParams.js'
 
 /**
  * Search quotes by keyword, phrase, or author.

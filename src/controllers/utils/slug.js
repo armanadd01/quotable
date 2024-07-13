@@ -1,6 +1,6 @@
-import deburr from 'lodash/deburr'
-import words from 'lodash/words'
-import toLower from 'lodash/toLower'
+import deburr from 'lodash/deburr.js'
+import words from 'lodash/words.js'
+import toLower from 'lodash/toLower.js'
 
 /**
  * Converts the given `string` to a slug.

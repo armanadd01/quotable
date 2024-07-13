@@ -1,5 +1,5 @@
-import toWords from 'lodash/words'
-import toLower from 'lodash/toLower'
+import toWords from 'lodash/words.js'
+import toLower from 'lodash/toLower.js'
 
 // List of prefixes
 const prefix = [

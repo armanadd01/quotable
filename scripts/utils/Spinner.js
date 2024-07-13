@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
 import Ora from 'ora'
-import isString from 'lodash/isString'
+import isString from 'lodash/isString.js'
 import isInteractive from 'is-interactive'
 
 /**
